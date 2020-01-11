@@ -5,17 +5,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
- 
 </head>
-<body style="background-color: yellow">
-<h1 style="text-align: center; font-size: 35px"> WELCOME </h1>
-<p style="text-align: center"> You can choose from the lists of books given below (subject to availability)<br> <br></p>
-<div class="container">
+<body>
+<h1> WELCOME </h1>
+<h2> You can choose from the lists of books given below (subject to availability)<br> <br><br></h2>
 <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
+  <div class="col-sm-4">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
       <?php
         $conn = mysqli_connect('localhost','root','');
 
@@ -29,8 +26,8 @@
           echo ' e-commerce database not selected';
         }
         echo ' BOOK ID = 1 <br><br> ' ;
-        echo ' IWP BOOK - 1 <br> ' ;
-        echo ' Price = 500 <br>';
+        echo ' Ian Sommerville<br> Software Engineering <br>9th Edition<br> Addision-Wesley 2016 <br><br> ' ;
+        echo ' PRICE = 500 <br>';
         $sql = "SELECT units FROM books WHERE book_id = 1";
         $result = $conn->query($sql);
 
@@ -45,10 +42,10 @@
         {
             echo "0 results";
         }
-        echo '-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>';
+
         echo ' BOOK ID = 2 <br><br> ' ;
-        echo ' IWP BOOK - 2 <br>' ;
-        echo ' Price = 1000 <br>';
+        echo ' Roger Pressman, Software Engineering: A Practitioners Approach, 7th Edition, McGraw-Hill, 2010. ' ;
+        echo ' PRICE = 1000 <br>';
         $sql = "SELECT units FROM books WHERE book_id = 2";
         $result = $conn->query($sql);
 
@@ -63,10 +60,9 @@
         {
             echo "0 results";
         }
-        echo '-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>';
         echo ' BOOK ID = 3 <br><br> ' ;
-        echo ' IWP BOOK - 3 <br>' ;
-        echo ' Price = 750 <br>';
+        echo ' William E. Lewis , “Software Testing and Continuous Quality Improvement”, Third Edition,  Auerbach Publications, 2008 ' ;
+        echo ' PRICE = 750 <br>';
         $sql = "SELECT units FROM books WHERE book_id = 3";
         $result = $conn->query($sql);
 
@@ -81,21 +77,15 @@
         {
             echo "0 results";
         }
-        echo '-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>';
       ?>
- 
+    </div>
 <form method="post">
-    <br>
-  	<p style="text-align: center; font-weight: bold; size: 25px"> Enter the book id: </p>
+  	Enter the book id:
   	<input name="book_id" type="text">
   	<br><br>
   	<input name="submit" type="submit" value="submit">
 </form>
-   </div>
-   <div classs="col-md-2"></div>
 
-  </div>
-  </div>
 <?php
 $conn = mysqli_connect('localhost','root','');
 

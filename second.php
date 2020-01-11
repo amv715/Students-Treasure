@@ -55,27 +55,17 @@
 	<div class="container-fluid">
 		<div class="row content">
 			<div class="col-lg-6 col-md-6">
-				<a href="http://localhost/readerstreasure/Restaurant/rest_index.html" target="_blank">RESTAURANTS</a>
+				<a href="http://localhost/software%20eng/restraunts.html">RESTRAUNTS</a>
 				<p>To have a look at some amazing restaurants near VIT</p>
 			</div>
 			<div class="col-md-offset-2 col-lg-4 col-md-4">
 				<img src="84245-640x360-sketch-restaurant-david-shrigley-640.jpg" height="90" width="200">
 			</div>
 		</div>
-
-		<div class="row content">
-			<div class="col-lg-6 col-md-6">
-				<a href="http://localhost/readerstreasure/Rivera/" target="_blank">FESTS</a>
-				<p>Find out about VIT Fests-some of the best in the country!</p>
-			</div>
-			<div class="col-md-offset-2 col-lg-4 col-md-4">
-				<img src="riv.jpg" height="90" width="200">
-			</div>
-		</div>
 	
 		<div class="row content">
 			<div class="col-lg-6 col-md-6">
-				<a href="http://localhost/readerstreasure/upload/initial.html" target="_blank">Question Bank</a>
+				<a href="http://localhost/upload/landingpage_qb.php">Question Bank</a>
 				<p>Here students can access previous years question papers</p>
 			</div>
 			<div class="col-md-offset-2 col-lg-4 col-md-4">
@@ -84,8 +74,8 @@
 		</div>
 		<div class="row content">
 			<div class="col-lg-6 col-md-6">
-				<a href="http://localhost/readerstreasure/Books/sellbook.php" target="_blank">Sell Secondhand Books</a>
-				<p> You can sell your old books here at a reasonable price.</p>
+				<a href="http://localhost/software%20eng/book.php">Buy and sell books</a>
+				<p>can buy and sell books here at a cheaper price</p>
 			</div>
 			<div class="col-md-offset-2 col-lg-4 col-md-4">
 				<img src="where-to-buy-and-sell-used-books-how-to-get-the-best-value-thumbnail_53ece793a38a8_w450_h300.png" height="90" width="90">
@@ -93,16 +83,7 @@
 		</div>
 		<div class="row content">
 			<div class="col-lg-6 col-md-6">
-				<a href="http://localhost/readerstreasure/book.php" target="_blank">Buy Secondhand Books</a>
-				<p>You can buy books here at a cheaper price.</p>
-			</div>
-			<div class="col-md-offset-2 col-lg-4 col-md-4">
-				<img src="where-to-buy-and-sell-used-books-how-to-get-the-best-value-thumbnail_53ece793a38a8_w450_h300.png" height="90" width="90">
-			</div>
-		</div>
-		<div class="row content">
-			<div class="col-lg-6 col-md-6">
-				<a href="http://localhost/readerstreasure/chatsystem/chattingsystem.php" target="_blank">Chat box</a>
+				<a href="http://localhost/chatsystem/chattingsystem.php#">Chat box</a>
 				<p>a platform to interact with seniors</p>
 			</div>
 			<div class="col-md-offset-2 col-lg-4 col-md-4">
