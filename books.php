@@ -14,7 +14,7 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
 			<?php
-				$conn = new mysqli_connect('localhost','root','');
+				$conn = mysqli_connect('localhost','root','');
 
 				if(!$conn)
 				{
@@ -48,7 +48,7 @@
 	</div>
 	<div class="col-md-4">
 		<?php
-			$conn =new mysqli_connect('localhost','root','');
+			$conn = mysqli_connect('localhost','root','');
 
 			if(!$conn)
 			{
@@ -80,7 +80,7 @@
 	</div>
 	<div class="col-sm-4">
 		<?php
-			$conn =new mysqli_connect('localhost','root','');
+			$conn = mysqli_connect('localhost','root','');
 
 			if(!$conn)
 			{
