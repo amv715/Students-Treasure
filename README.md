@@ -1,4 +1,5 @@
 # Students-Treasure
+
 The main focus of the project is on the struggle of students in college especially freshers to get acquainted with the basic functionalities of the college. This proposed system provides a helping hand to the freshers. Features like question banks, entertainment, exchange of books, discussion about clubs and chapters and a chat box for live interaction of freshers with the seniors.
 
 
